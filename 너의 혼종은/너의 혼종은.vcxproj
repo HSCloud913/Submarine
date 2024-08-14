@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A4CF72C-296F-4BCD-99EE-1BE64DE36F5A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>너의혼종은</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIFactory.cpp" />
+    <ClCompile Include="BulletFactory.cpp" />
+    <ClCompile Include="c2DAni.cpp" />
+    <ClCompile Include="c2DAniList.cpp" />
+    <ClCompile Include="c2DCoord.cpp" />
+    <ClCompile Include="c2DLine.cpp" />
+    <ClCompile Include="c2DObject.cpp" />
+    <ClCompile Include="cAI.cpp" />
+    <ClCompile Include="cAI_AddOn.cpp" />
+    <ClCompile Include="cAI_Kraken.cpp" />
+    <ClCompile Include="cAI_Player.cpp" />
+    <ClCompile Include="cAI_P_Cme.cpp" />
+    <ClCompile Include="cAI_Ray.cpp" />
+    <ClCompile Include="cAI_R_Cme.cpp" />
+    <ClCompile Include="cAI_R_MonkFish.cpp" />
+    <ClCompile Include="cAI_R_Puffer.cpp" />
+    <ClCompile Include="cAI_R_Seahorse.cpp" />
+    <ClCompile Include="cAI_Shark.cpp" />
+    <ClCompile Include="cAI_Whale.cpp" />
+    <ClCompile Include="cAI_Y_MonkFish.cpp" />
+    <ClCompile Include="cAI_Y_Puffer.cpp" />
+    <ClCompile Include="cAI_Y_Seahorse.cpp" />
+    <ClCompile Include="cBullet.cpp" />
+    <ClCompile Include="cBullet_AddOn.cpp" />
+    <ClCompile Include="cBullet_GuidedTorpedo.cpp" />
+    <ClCompile Include="cBullet_Kraken.cpp" />
+    <ClCompile Include="cBullet_Nuclear.cpp" />
+    <ClCompile Include="cBullet_P_Cme.cpp" />
+    <ClCompile Include="cBullet_Ray.cpp" />
+    <ClCompile Include="cBullet_R_Cme.cpp" />
+    <ClCompile Include="cBullet_R_MonkFish.cpp" />
+    <ClCompile Include="cBullet_R_Puffer.cpp" />
+    <ClCompile Include="cBullet_R_Seahorse.cpp" />
+    <ClCompile Include="cBullet_Shark.cpp" />
+    <ClCompile Include="cBullet_Torpedo.cpp" />
+    <ClCompile Include="cBullet_Whale.cpp" />
+    <ClCompile Include="cBullet_Y_MonkFish.cpp" />
+    <ClCompile Include="cBullet_Y_Puffer.cpp" />
+    <ClCompile Include="cBullet_Y_Seahorse.cpp" />
+    <ClCompile Include="cButton.cpp" />
+    <ClCompile Include="cCamera.cpp" />
+    <ClCompile Include="cD3DApp.cpp" />
+    <ClCompile Include="cData.cpp" />
+    <ClCompile Include="cDevice.cpp" />
+    <ClCompile Include="cEffect.cpp" />
+    <ClCompile Include="cEffectList.cpp" />
+    <ClCompile Include="cEngine.cpp" />
+    <ClCompile Include="cFade.cpp" />
+    <ClCompile Include="cFont.cpp" />
+    <ClCompile Include="cGameData.cpp" />
+    <ClCompile Include="cGameMap.cpp" />
+    <ClCompile Include="cGameObject.cpp" />
+    <ClCompile Include="cInput.cpp" />
+    <ClCompile Include="cItem.cpp" />
+    <ClCompile Include="cItem_GuidedTorpedo.cpp" />
+    <ClCompile Include="cItem_Nuclear.cpp" />
+    <ClCompile Include="cItem_OnceTorpedo.cpp" />
+    <ClCompile Include="cItem_Speed.cpp" />
+    <ClCompile Include="cItem_TripleTorpedo.cpp" />
+    <ClCompile Include="cItem_Upgrade.cpp" />
+    <ClCompile Include="cMap.cpp" />
+    <ClCompile Include="cMapObject.cpp" />
+    <ClCompile Include="cMapObj_Seaweed.cpp" />
+    <ClCompile Include="cMapObj_Stone.cpp" />
+    <ClCompile Include="cMsg.cpp" />
+    <ClCompile Include="cMsgMgr.cpp" />
+    <ClCompile Include="cResource.cpp" />
+    <ClCompile Include="cResourceLoad.cpp" />
+    <ClCompile Include="cSeqMgr.cpp" />
+    <ClCompile Include="cSequence.cpp" />
+    <ClCompile Include="cSeq_Cinematic.cpp" />
+    <ClCompile Include="cSeq_Ending.cpp" />
+    <ClCompile Include="cSeq_Game.cpp" />
+    <ClCompile Include="cSeq_Initial.cpp" />
+    <ClCompile Include="cSeq_Intro.cpp" />
+    <ClCompile Include="cSeq_Introduction.cpp" />
+    <ClCompile Include="cSeq_Load.cpp" />
+    <ClCompile Include="cSeq_MainMenu.cpp" />
+    <ClCompile Include="cSeq_Method.cpp" />
+    <ClCompile Include="cSeq_Ranking.cpp" />
+    <ClCompile Include="cSound.cpp" />
+    <ClCompile Include="cSoundList.cpp" />
+    <ClCompile Include="cSprite.cpp" />
+    <ClCompile Include="cSystem.cpp" />
+    <ClCompile Include="cTexList.cpp" />
+    <ClCompile Include="cTexture.cpp" />
+    <ClCompile Include="cTile.cpp" />
+    <ClCompile Include="cTimer.cpp" />
+    <ClCompile Include="cTopography.cpp" />
+    <ClCompile Include="cUI.cpp" />
+    <ClCompile Include="cUnit.cpp" />
+    <ClCompile Include="cUnit_AddOn.cpp" />
+    <ClCompile Include="cUnit_Kraken.cpp" />
+    <ClCompile Include="cUnit_Player.cpp" />
+    <ClCompile Include="cUnit_P_Cme.cpp" />
+    <ClCompile Include="cUnit_Ray.cpp" />
+    <ClCompile Include="cUnit_R_Cme.cpp" />
+    <ClCompile Include="cUnit_R_MonkFish.cpp" />
+    <ClCompile Include="cUnit_R_Puffer.cpp" />
+    <ClCompile Include="cUnit_R_Seahorse.cpp" />
+    <ClCompile Include="cUnit_Shark.cpp" />
+    <ClCompile Include="cUnit_Whale.cpp" />
+    <ClCompile Include="cUnit_Y_MonkFish.cpp" />
+    <ClCompile Include="cUnit_Y_Puffer.cpp" />
+    <ClCompile Include="cUnit_Y_Seahorse.cpp" />
+    <ClCompile Include="cWeapon.cpp" />
+    <ClCompile Include="cWeapon_AddOn.cpp" />
+    <ClCompile Include="cWeapon_GuidedTorpedo.cpp" />
+    <ClCompile Include="cWeapon_Kraken1.cpp" />
+    <ClCompile Include="cWeapon_Kraken2.cpp" />
+    <ClCompile Include="cWeapon_Nuclear.cpp" />
+    <ClCompile Include="cWeapon_OnceTorpedo.cpp" />
+    <ClCompile Include="cWeapon_P_Cme.cpp" />
+    <ClCompile Include="cWeapon_Ray.cpp" />
+    <ClCompile Include="cWeapon_R_Cme.cpp" />
+    <ClCompile Include="cWeapon_R_MonkFish.cpp" />
+    <ClCompile Include="cWeapon_R_Puffer.cpp" />
+    <ClCompile Include="cWeapon_R_Seahorse.cpp" />
+    <ClCompile Include="cWeapon_Shark.cpp" />
+    <ClCompile Include="cWeapon_TripleTorpedo.cpp" />
+    <ClCompile Include="cWeapon_Whale.cpp" />
+    <ClCompile Include="cWeapon_Y_MonkFish.cpp" />
+    <ClCompile Include="cWeapon_Y_Puffer.cpp" />
+    <ClCompile Include="cWeapon_Y_Seahorse.cpp" />
+    <ClCompile Include="ItemFactory.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="UnitFactory.cpp" />
+    <ClCompile Include="Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIFactory.h" />
+    <ClInclude Include="BulletFactory.h" />
+    <ClInclude Include="c2DAni.h" />
+    <ClInclude Include="c2DAniList.h" />
+    <ClInclude Include="c2DCoord.h" />
+    <ClInclude Include="c2DLine.h" />
+    <ClInclude Include="c2DObject.h" />
+    <ClInclude Include="cAI.h" />
+    <ClInclude Include="cAI_AddOn.h" />
+    <ClInclude Include="cAI_Kraken.h" />
+    <ClInclude Include="cAI_Player.h" />
+    <ClInclude Include="cAI_P_Cme.h" />
+    <ClInclude Include="cAI_Ray.h" />
+    <ClInclude Include="cAI_R_Cme.h" />
+    <ClInclude Include="cAI_R_MonkFish.h" />
+    <ClInclude Include="cAI_R_Puffer.h" />
+    <ClInclude Include="cAI_R_Seahorse.h" />
+    <ClInclude Include="cAI_Shark.h" />
+    <ClInclude Include="cAI_Whale.h" />
+    <ClInclude Include="cAI_Y_MonkFish.h" />
+    <ClInclude Include="cAI_Y_Puffer.h" />
+    <ClInclude Include="cAI_Y_Seahorse.h" />
+    <ClInclude Include="cBullet.h" />
+    <ClInclude Include="cBullet_AddOn.h" />
+    <ClInclude Include="cBullet_GuidedTorpedo.h" />
+    <ClInclude Include="cBullet_Kraken.h" />
+    <ClInclude Include="cBullet_Nuclear.h" />
+    <ClInclude Include="cBullet_P_Cme.h" />
+    <ClInclude Include="cBullet_Ray.h" />
+    <ClInclude Include="cBullet_R_Cme.h" />
+    <ClInclude Include="cBullet_R_MonkFish.h" />
+    <ClInclude Include="cBullet_R_Puffer.h" />
+    <ClInclude Include="cBullet_R_Seahorse.h" />
+    <ClInclude Include="cBullet_Shark.h" />
+    <ClInclude Include="cBullet_Torpedo.h" />
+    <ClInclude Include="cBullet_Whale.h" />
+    <ClInclude Include="cBullet_Y_MonkFish.h" />
+    <ClInclude Include="cBullet_Y_Puffer.h" />
+    <ClInclude Include="cBullet_Y_Seahorse.h" />
+    <ClInclude Include="cButton.h" />
+    <ClInclude Include="cCamera.h" />
+    <ClInclude Include="cD3DApp.h" />
+    <ClInclude Include="cData.h" />
+    <ClInclude Include="cDevice.h" />
+    <ClInclude Include="cEffect.h" />
+    <ClInclude Include="cEffectList.h" />
+    <ClInclude Include="cEngine.h" />
+    <ClInclude Include="cFade.h" />
+    <ClInclude Include="cFont.h" />
+    <ClInclude Include="cGameData.h" />
+    <ClInclude Include="cGameMap.h" />
+    <ClInclude Include="cGameObject.h" />
+    <ClInclude Include="cInput.h" />
+    <ClInclude Include="cItem.h" />
+    <ClInclude Include="cItem_GuidedTorpedo.h" />
+    <ClInclude Include="cItem_Nuclear.h" />
+    <ClInclude Include="cItem_OnceTorpedo.h" />
+    <ClInclude Include="cItem_Speed.h" />
+    <ClInclude Include="cItem_TripleTorpedo.h" />
+    <ClInclude Include="cItem_Upgrade.h" />
+    <ClInclude Include="cMap.h" />
+    <ClInclude Include="cMapObject.h" />
+    <ClInclude Include="cMapObj_Seaweed.h" />
+    <ClInclude Include="cMapObj_Stone.h" />
+    <ClInclude Include="cMsg.h" />
+    <ClInclude Include="cMsgMgr.h" />
+    <ClInclude Include="cResource.h" />
+    <ClInclude Include="cResourceLoad.h" />
+    <ClInclude Include="cSeqMgr.h" />
+    <ClInclude Include="cSequence.h" />
+    <ClInclude Include="cSeq_Cinematic.h" />
+    <ClInclude Include="cSeq_Ending.h" />
+    <ClInclude Include="cSeq_Game.h" />
+    <ClInclude Include="cSeq_Initial.h" />
+    <ClInclude Include="cSeq_Intro.h" />
+    <ClInclude Include="cSeq_Introduction.h" />
+    <ClInclude Include="cSeq_Load.h" />
+    <ClInclude Include="cSeq_MainMenu.h" />
+    <ClInclude Include="cSeq_Method.h" />
+    <ClInclude Include="cSeq_Ranking.h" />
+    <ClInclude Include="cSound.h" />
+    <ClInclude Include="cSoundList.h" />
+    <ClInclude Include="cSprite.h" />
+    <ClInclude Include="cSystem.h" />
+    <ClInclude Include="cTexList.h" />
+    <ClInclude Include="cTexture.h" />
+    <ClInclude Include="cTile.h" />
+    <ClInclude Include="cTimer.h" />
+    <ClInclude Include="cTopography.h" />
+    <ClInclude Include="cUI.h" />
+    <ClInclude Include="cUnit.h" />
+    <ClInclude Include="cUnit_AddOn.h" />
+    <ClInclude Include="cUnit_Kraken.h" />
+    <ClInclude Include="cUnit_Player.h" />
+    <ClInclude Include="cUnit_P_Cme.h" />
+    <ClInclude Include="cUnit_Ray.h" />
+    <ClInclude Include="cUnit_R_Cme.h" />
+    <ClInclude Include="cUnit_R_MonkFish.h" />
+    <ClInclude Include="cUnit_R_Puffer.h" />
+    <ClInclude Include="cUnit_R_Seahorse.h" />
+    <ClInclude Include="cUnit_Shark.h" />
+    <ClInclude Include="cUnit_Whale.h" />
+    <ClInclude Include="cUnit_Y_MonkFish.h" />
+    <ClInclude Include="cUnit_Y_Puffer.h" />
+    <ClInclude Include="cUnit_Y_Seahorse.h" />
+    <ClInclude Include="cWeapon.h" />
+    <ClInclude Include="cWeapon_AddOn.h" />
+    <ClInclude Include="cWeapon_GuidedTorpedo.h" />
+    <ClInclude Include="cWeapon_Kraken1.h" />
+    <ClInclude Include="cWeapon_Kraken2.h" />
+    <ClInclude Include="cWeapon_Nuclear.h" />
+    <ClInclude Include="cWeapon_OnceTorpedo.h" />
+    <ClInclude Include="cWeapon_P_Cme.h" />
+    <ClInclude Include="cWeapon_Ray.h" />
+    <ClInclude Include="cWeapon_R_Cme.h" />
+    <ClInclude Include="cWeapon_R_MonkFish.h" />
+    <ClInclude Include="cWeapon_R_Puffer.h" />
+    <ClInclude Include="cWeapon_R_Seahorse.h" />
+    <ClInclude Include="cWeapon_Shark.h" />
+    <ClInclude Include="cWeapon_TripleTorpedo.h" />
+    <ClInclude Include="cWeapon_Whale.h" />
+    <ClInclude Include="cWeapon_Y_MonkFish.h" />
+    <ClInclude Include="cWeapon_Y_Puffer.h" />
+    <ClInclude Include="cWeapon_Y_Seahorse.h" />
+    <ClInclude Include="FadeType.h" />
+    <ClInclude Include="ItemFactory.h" />
+    <ClInclude Include="SoundListName.h" />
+    <ClInclude Include="TexListName.h" />
+    <ClInclude Include="Type.h" />
+    <ClInclude Include="UnitFactory.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

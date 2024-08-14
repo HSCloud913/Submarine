@@ -1,0 +1,12 @@
+Resource/Img/Bullet/Enemy/R_Seahorse/00001.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00002.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00003.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00004.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00005.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00006.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00007.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00008.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00009.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00010.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00011.png
+Resource/Img/Bullet/Enemy/R_Seahorse/00012.png

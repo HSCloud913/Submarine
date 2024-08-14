@@ -1,0 +1,12 @@
+Resource/Img/Unit/Player/AddOn/Move/00001.png
+Resource/Img/Unit/Player/AddOn/Move/00002.png
+Resource/Img/Unit/Player/AddOn/Move/00003.png
+Resource/Img/Unit/Player/AddOn/Move/00004.png
+Resource/Img/Unit/Player/AddOn/Move/00005.png
+Resource/Img/Unit/Player/AddOn/Move/00006.png
+Resource/Img/Unit/Player/AddOn/Move/00007.png
+Resource/Img/Unit/Player/AddOn/Move/00008.png
+Resource/Img/Unit/Player/AddOn/Move/00009.png
+Resource/Img/Unit/Player/AddOn/Move/00010.png
+Resource/Img/Unit/Player/AddOn/Move/00011.png
+Resource/Img/Unit/Player/AddOn/Move/00012.png

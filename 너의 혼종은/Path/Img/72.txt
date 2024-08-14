@@ -1,0 +1,2 @@
+Resource/Img/Ending/Happy.png
+Resource/Img/Ending/Bad.png

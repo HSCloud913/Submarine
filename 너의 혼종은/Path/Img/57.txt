@@ -1,0 +1,13 @@
+Resource/Img/UI/Boss/BackGround.png
+Resource/Img/UI/Boss/Gauge.png
+Resource/Img/UI/Player/BackGround.png
+Resource/Img/UI/Player/Gauge.png
+Resource/Img/UI/Icon/Player.png
+Resource/Img/UI/Icon/OnceTorpedo.png
+Resource/Img/UI/Icon/TripleTorpedo.png
+Resource/Img/UI/Icon/GuidedTorpedo.png
+Resource/Img/UI/Icon/Nuclear.png
+Resource/Img/UI/MiniMap/BackGround.png
+Resource/Img/UI/MiniMap/Gauge.png
+Resource/Img/UI/MiniMap/State.png
+Resource/Img/UI/Score/Score.png

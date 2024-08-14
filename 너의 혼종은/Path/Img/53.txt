@@ -1,0 +1,12 @@
+Resource/Img/Effect/Boom/00001.png
+Resource/Img/Effect/Boom/00002.png
+Resource/Img/Effect/Boom/00003.png
+Resource/Img/Effect/Boom/00004.png
+Resource/Img/Effect/Boom/00005.png
+Resource/Img/Effect/Boom/00006.png
+Resource/Img/Effect/Boom/00007.png
+Resource/Img/Effect/Boom/00008.png
+Resource/Img/Effect/Boom/00009.png
+Resource/Img/Effect/Boom/00010.png
+Resource/Img/Effect/Boom/00011.png
+Resource/Img/Effect/Boom/00012.png

@@ -1,0 +1,1332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{433728f1-1367-4894-bc5d-651f83d10ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fa5b9fa8-5b80-4a0e-b04a-df8178a28c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{88738d1f-15f9-41ed-bafd-eaaf2346d5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base">
+      <UniqueIdentifier>{571559ba-3bf9-450e-9580-06f66c41c94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\D3DApp">
+      <UniqueIdentifier>{9feff2e5-6991-435e-9b86-063d94f865bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System">
+      <UniqueIdentifier>{afbf5d42-e4ee-4feb-bd76-74eafa195082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\Util">
+      <UniqueIdentifier>{ffc6237a-57e9-4488-b21a-2d71c025885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence">
+      <UniqueIdentifier>{56487227-3621-45e7-b78e-f20985b7e350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object">
+      <UniqueIdentifier>{7d833dbb-92ee-4165-ba11-46515a5fa5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\2DAni">
+      <UniqueIdentifier>{a41dd76f-2bbd-4909-acb5-6ea73a1d1986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\2DAni\2DAniList">
+      <UniqueIdentifier>{7a1e09f4-dfd8-417f-860d-5c236d13018b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object\Camera">
+      <UniqueIdentifier>{771697e7-0907-4326-9ee8-21f54aa4f840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\D3DApp\D3DApp">
+      <UniqueIdentifier>{ed16d062-6849-4bc5-8e17-81b7c2bb509f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\D3DApp\Device">
+      <UniqueIdentifier>{f556e4b9-7997-4630-a2f4-038720f81a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\D3DApp\Sprite">
+      <UniqueIdentifier>{eb9672a3-4388-4d43-b03f-cc95169dfecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System\Engine">
+      <UniqueIdentifier>{430108c0-bb0b-4cd7-9988-540014e26db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System\System">
+      <UniqueIdentifier>{4e50f82f-6f9f-4cef-b7d7-66ee28451b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System\Input">
+      <UniqueIdentifier>{c680f7aa-0032-45d0-b2a5-963cb715321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System\ResourceLoad">
+      <UniqueIdentifier>{14c29235-3c62-446c-99c6-54431a9a9134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource">
+      <UniqueIdentifier>{1c95ae9d-7df7-4e20-8300-cf8cd80478e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List">
+      <UniqueIdentifier>{4b39c275-47e0-41e1-af3c-f0d64a0f2a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\Texture">
+      <UniqueIdentifier>{c42d84b4-8f73-411e-83df-416be24b8dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\Sound">
+      <UniqueIdentifier>{8130bda4-037e-4d20-846c-8c05ecbb7e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\Font">
+      <UniqueIdentifier>{e442e273-0d95-4e1c-8a21-9c46e75c4dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\2DLine">
+      <UniqueIdentifier>{c290c3b7-adaf-4840-b492-0635dd85263b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\Texture\TexList">
+      <UniqueIdentifier>{175f1a2e-742a-44cc-9281-53576160cc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource\List\Sound\SoundList">
+      <UniqueIdentifier>{41fb6ba5-dbd2-4701-b9d1-77d70f36cdc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Base\System\Timer">
+      <UniqueIdentifier>{51b318ec-af23-44cf-ad8d-678156a73571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Message">
+      <UniqueIdentifier>{7cf9108e-dd4c-4521-9f93-5ed2cbd8db75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Message\Manager">
+      <UniqueIdentifier>{76d778d4-5ae6-4f1c-ab68-c593a83cedb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Phsyics">
+      <UniqueIdentifier>{ae4ed515-6878-492b-bd98-c3f6970c6156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Phsyics\2DCoord">
+      <UniqueIdentifier>{455ac116-bd7c-474e-a8bd-6a8ddd8e8cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World">
+      <UniqueIdentifier>{c5a78b54-3c81-41b3-a0c5-10d8d11c076d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World\Fade">
+      <UniqueIdentifier>{8022475f-2cfc-4fe5-912b-9cb0f90cf8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World\Effect">
+      <UniqueIdentifier>{96603948-1571-4cda-a1ad-6b34d1693e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\Manager">
+      <UniqueIdentifier>{430aace4-d1ed-4d09-afe2-3d91c298d177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List">
+      <UniqueIdentifier>{4bb61486-8a74-4213-bda3-d4909d3c4ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Load">
+      <UniqueIdentifier>{4f867ba9-39a4-45aa-90ee-293c18b01a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject">
+      <UniqueIdentifier>{22e9f243-5ddc-4bd6-876f-e0c5778bf47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject">
+      <UniqueIdentifier>{377e75c5-2285-4113-91ef-a0406b792b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit">
+      <UniqueIdentifier>{7391b198-6b82-44c7-8df3-e4856d0f232a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI">
+      <UniqueIdentifier>{612a5ef3-2b28-4a8b-8154-3710e6beef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Data">
+      <UniqueIdentifier>{e673d0e5-1cce-44ff-b205-5214b462bd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List">
+      <UniqueIdentifier>{06ee3fd1-7a60-4ce6-9cef-f3ed4166fcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List">
+      <UniqueIdentifier>{a89f26a5-2d05-4de3-9e83-3e12407be7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Type">
+      <UniqueIdentifier>{272f2aa8-d66b-4f85-a209-54b5d1867e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Player">
+      <UniqueIdentifier>{c1e8d5b1-a84d-4a56-b4fe-55145d0b5a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Player\Player">
+      <UniqueIdentifier>{2081930f-4c70-44c9-8727-ebe236216ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Game">
+      <UniqueIdentifier>{4f46b139-46b4-454b-b1f7-d9e1fbab43e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Player">
+      <UniqueIdentifier>{632e3f45-e0cd-4237-9d40-cf97c4740ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy">
+      <UniqueIdentifier>{fc4fe847-d923-40c6-bfad-6f805e8d50c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Player\AddOn">
+      <UniqueIdentifier>{fa913648-853e-4ecb-a9e8-7bdb40738939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Factory">
+      <UniqueIdentifier>{10c1ea30-5a9d-4cc6-bf75-db4d9d6dc19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Factory\AI">
+      <UniqueIdentifier>{3703dbd5-c3ac-4891-83ea-2c042235a356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Factory\Unit">
+      <UniqueIdentifier>{88061336-2db3-4d33-b4d4-63dd9a26bb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item">
+      <UniqueIdentifier>{316f1de3-550a-483e-a692-cd828eeac506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet">
+      <UniqueIdentifier>{c608df81-9301-41f4-84e3-f84e02605b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List">
+      <UniqueIdentifier>{014205b3-eb35-45f0-ba42-6c058c974a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\OnceTorpedo">
+      <UniqueIdentifier>{6ca08efc-1ed4-4e31-9145-d22f43634ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\TripleTorpedo">
+      <UniqueIdentifier>{00513ae5-aa74-46a9-bf61-686e79393a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\Nuclear">
+      <UniqueIdentifier>{334f09b9-eb80-4678-a9e6-6f2b8d87765f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\Speed">
+      <UniqueIdentifier>{bf794e2f-e822-498d-bcae-439965caea43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\Upgrade">
+      <UniqueIdentifier>{1efb9b91-d2af-4f93-ac3c-d49a4f0a2a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Seahorse">
+      <UniqueIdentifier>{4fad06a7-627a-4756-9586-97a83ff4148d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Puffer">
+      <UniqueIdentifier>{c81b7c9f-f517-44e5-8902-a46dd4ead377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29">
+      <UniqueIdentifier>{b29419ca-cd6c-4471-a9e6-c0d6ae31e380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\MonkFish">
+      <UniqueIdentifier>{dd711480-5d87-40ff-a0e2-06d7abf3e07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Red">
+      <UniqueIdentifier>{f627066b-5a1e-48ac-94fa-3ff8046aab8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Purple">
+      <UniqueIdentifier>{fd487253-d5cd-4e24-aa00-4ac4b0f5fc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Yellow">
+      <UniqueIdentifier>{824ac100-7d27-4ade-baa4-2ed4625f1229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Red">
+      <UniqueIdentifier>{39a30d54-e0d0-4054-944b-1a061b43d2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Yellow">
+      <UniqueIdentifier>{1b7d5dfc-adf3-4888-954b-49c4e0fed3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Red">
+      <UniqueIdentifier>{4b07ec03-8fa6-45ca-9982-4950da7e8649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Yellow">
+      <UniqueIdentifier>{660dc953-9f91-422f-a71e-d2497e74570a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Red">
+      <UniqueIdentifier>{6256f719-a259-4e23-9bdc-f8313f934f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Boss">
+      <UniqueIdentifier>{331bed81-923e-442d-8ad2-a8508095f771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Boss\Ray">
+      <UniqueIdentifier>{c81a468a-2658-4e44-96ed-0791002f5699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Boss\Whale">
+      <UniqueIdentifier>{c6dc8af1-c718-4078-ab91-e7e8803c8359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Boss\Shark">
+      <UniqueIdentifier>{e5eb8a50-a961-4ff8-bc7a-d5938136b5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Unit\List\Boss\Kraken">
+      <UniqueIdentifier>{f55eaa04-7c74-43af-87ac-7b01b3164a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Factory\Item">
+      <UniqueIdentifier>{6358cb30-8bfd-4320-89a5-143988125fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Player\Player">
+      <UniqueIdentifier>{97513858-93b8-44ce-907d-77e9e955c9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Player\AddOn">
+      <UniqueIdentifier>{e27f6a72-240a-42bd-80aa-7020dbaa9339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy">
+      <UniqueIdentifier>{21993e71-3f20-482f-a7b8-389388833fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Boss">
+      <UniqueIdentifier>{9c1e055a-9494-4910-b5d8-1a80505f72b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Cme%28곰치%29">
+      <UniqueIdentifier>{b6d3f3d6-728a-4b7b-967d-e84bd77b7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Cme%28곰치%29\Purple">
+      <UniqueIdentifier>{0d0ad1eb-4e44-4e3e-95b6-9e97588dac9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Cme%28곰치%29\Red">
+      <UniqueIdentifier>{f7f70f2f-6352-40ac-abf1-c2e239a5ad0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\MonkFish">
+      <UniqueIdentifier>{ff707df0-e2aa-4210-bc07-4e68553ccd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\MonkFish\Yellow">
+      <UniqueIdentifier>{0a08e3c4-84be-439c-a560-a7cc87ae22da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\MonkFish\Red">
+      <UniqueIdentifier>{eacc2129-36a8-49bb-bf9e-ee913a25ad96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Puffer">
+      <UniqueIdentifier>{cb667dd3-9ef5-4832-9076-16dc641384e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Puffer\Yellow">
+      <UniqueIdentifier>{3162f9de-6449-4b92-8907-62a8a99b9e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Puffer\Red">
+      <UniqueIdentifier>{bbcc3e44-e583-45c0-8475-cb53b3d6ab1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Seahorse">
+      <UniqueIdentifier>{ee86c142-32e5-4357-bf5b-a4767e3c9ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Seahorse\Yellow">
+      <UniqueIdentifier>{7d978b60-245c-4963-9e3d-3f8c2ac25a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Enemy\Seahorse\Red">
+      <UniqueIdentifier>{84264da8-02a4-466c-9d09-0e664c946d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Boss\Ray">
+      <UniqueIdentifier>{dcac1204-fbbd-47b3-a8a2-62e6d95fc059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Boss\Whale">
+      <UniqueIdentifier>{fadabf1c-c67f-4256-84ff-74300343176f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Boss\Shark">
+      <UniqueIdentifier>{5d11c720-4fdf-4b9b-9e83-7317e65ee9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI\List\Boss\Kraken">
+      <UniqueIdentifier>{081821ac-bfe7-47dd-bfb2-e19cc555eb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Data\GameData">
+      <UniqueIdentifier>{39573358-4f09-4b40-887c-75df5865c92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List">
+      <UniqueIdentifier>{4f092e3a-ab64-4cc7-b869-645fc30367db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Boss">
+      <UniqueIdentifier>{8ee3cfb2-8051-4315-891c-fa9e32bb0a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy">
+      <UniqueIdentifier>{f1f1a2e1-559d-4844-b716-0249b668640e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player">
+      <UniqueIdentifier>{e1cc6e64-d2b7-4717-9ca9-63cd6ebc59d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player\Player">
+      <UniqueIdentifier>{753c178f-de8f-47fe-a06a-82f27d92eb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player\AddOn">
+      <UniqueIdentifier>{325a166e-a92b-41b2-ab54-c1bad6ad6bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish">
+      <UniqueIdentifier>{f004a277-6d35-4c4f-8f7a-732582bf5f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Cme">
+      <UniqueIdentifier>{6fdf229d-24cf-43c3-aefb-cf31fb754066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Puffer">
+      <UniqueIdentifier>{15376b0b-77e6-48bf-8d9b-74b3498bc2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse">
+      <UniqueIdentifier>{10aee945-8b8e-484d-8652-7b7fec7613da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Boss\Kraken">
+      <UniqueIdentifier>{d3aba479-9bcf-4485-a999-cc617e7f8954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Boss\Shark">
+      <UniqueIdentifier>{d4534379-cb1d-4a42-a946-5f40a83c6c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Boss\Ray">
+      <UniqueIdentifier>{2406e9d9-7dfa-4acd-b912-0657a53e4a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Boss\Whale">
+      <UniqueIdentifier>{0a0b267b-e064-4293-b8df-4efc3cca26af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player\Player\Torpedo">
+      <UniqueIdentifier>{8b957b65-88d8-47d3-91c3-0cdfaef51bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player\Player\GuidedTorpedo">
+      <UniqueIdentifier>{6b2b3f22-e1f6-41a2-9c41-fd53c450574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Player\Player\Nuclear">
+      <UniqueIdentifier>{96e6adac-6894-4ca4-a5cc-ff1855ec063e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Red">
+      <UniqueIdentifier>{130eb731-7064-4b82-bca4-fb0b0c2c81a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Yellow">
+      <UniqueIdentifier>{e3a4b059-825d-484d-96a6-306125d98313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Yellow">
+      <UniqueIdentifier>{3317e61a-dfdc-4bf4-820a-dbf5fa4ea577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Red">
+      <UniqueIdentifier>{fc318190-412e-41c1-8e98-693bc807dc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Purple">
+      <UniqueIdentifier>{ceaafb3a-65ac-4267-bb48-13d86e991114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Red">
+      <UniqueIdentifier>{cb0127ab-bb32-4e22-be4f-f6d66eec88d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Yellow">
+      <UniqueIdentifier>{a83c4038-0536-4295-ad3b-90399e07dd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Red">
+      <UniqueIdentifier>{a78297a7-f7d8-475b-9dbb-92f33ee8cc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon">
+      <UniqueIdentifier>{534ef93d-973c-4847-8b82-5852af34ba31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Factory\Bullet">
+      <UniqueIdentifier>{a02182a1-daf4-4207-ac38-72de1679d0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List">
+      <UniqueIdentifier>{082bae91-ee53-40cc-9d67-05a77b9363d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\MapObject">
+      <UniqueIdentifier>{239a0ddf-1360-4f10-9e50-e042dda818b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player">
+      <UniqueIdentifier>{4bccb8c5-6cbc-4371-96d3-af8483ce756c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy">
+      <UniqueIdentifier>{e1a8374f-9145-405a-9ddb-9d95a4e7a904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\Player">
+      <UniqueIdentifier>{2381e16c-914e-4145-99fc-aa8f54cb8f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\AddOn">
+      <UniqueIdentifier>{46168d75-941d-40d9-9d04-8c083054fef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\Player\OnceTorpedo">
+      <UniqueIdentifier>{795eefde-728c-4abe-80bd-ffcc812e2210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\Player\TripleTorpedo">
+      <UniqueIdentifier>{8a0ac760-3ca1-4916-abea-bf203c7764a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\Player\GuidedTorpedo">
+      <UniqueIdentifier>{1c0ab724-8de8-4f7f-aab0-bcbbaa3c9b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Player\Player\Nuclear">
+      <UniqueIdentifier>{68533f9d-97c7-48e0-bfc3-cc3c46ae7858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Cme">
+      <UniqueIdentifier>{2a418dc0-0e71-49a5-9510-4ec0561d2960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\MonkFish">
+      <UniqueIdentifier>{0d25198e-3b46-4245-8d4e-5c2e8381503e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Seahorse">
+      <UniqueIdentifier>{4eacaf59-3085-4aff-8d8a-7e25d6529577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Cme\Purple">
+      <UniqueIdentifier>{d963d0ab-db00-4231-90a7-db2df4c2e2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Cme\Red">
+      <UniqueIdentifier>{5383c645-bb9d-4a63-8327-d19d52d6f80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\MonkFish\Yellow">
+      <UniqueIdentifier>{a1faeb0f-f1d0-4ee8-8778-e198e5afec29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\MonkFish\Red">
+      <UniqueIdentifier>{2c27363a-5290-4c42-ad1c-c92cd816618a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Seahorse\Yellow">
+      <UniqueIdentifier>{7d3920aa-bfb7-4611-853a-70113b6cd039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Seahorse\Red">
+      <UniqueIdentifier>{d8bffb1c-ee37-4168-b995-5fc6414fdac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Puffer">
+      <UniqueIdentifier>{a9df5866-8bca-4ee0-acd7-395d99517e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Puffer\Yellow">
+      <UniqueIdentifier>{68dd3f2d-00de-4d29-a6ed-35d21c02590b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Enemy\Puffer\Red">
+      <UniqueIdentifier>{9ae5a6f6-e62c-497c-b883-b70eb175f05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss">
+      <UniqueIdentifier>{2b85c76e-0f0a-493c-94f5-d5e64f3c1ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Whale">
+      <UniqueIdentifier>{301fecb1-0357-4e22-8f27-d5f87bdcb99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Shark">
+      <UniqueIdentifier>{907e1a7d-ee46-47e3-a947-a172352c64ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Ray">
+      <UniqueIdentifier>{9a749232-9492-479c-b1c1-a4a0d38a1d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Kraken">
+      <UniqueIdentifier>{c9fcc98c-b2d3-4148-8775-15c3f5b36ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map">
+      <UniqueIdentifier>{4d968c91-0412-4031-b0c3-13b8aa264919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map\GameMap">
+      <UniqueIdentifier>{69b6cbca-fc79-41a8-bffd-3d1b9cb7420b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{a5a43229-cf0e-4ca5-a2f0-ffbc7cede1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Intro">
+      <UniqueIdentifier>{0b29e873-ae90-43c2-8921-1674c648729b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Cinematic">
+      <UniqueIdentifier>{bb577881-7784-4416-ac93-443757b8a120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\MainMenu">
+      <UniqueIdentifier>{394f0086-7e1b-404e-a835-0f2f2a3efa90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Kraken\1">
+      <UniqueIdentifier>{0dfeff48-2672-41c5-8261-5284b763e58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\List\Boss\Kraken\2">
+      <UniqueIdentifier>{ba1ff19d-e2c1-41ba-85e4-bcc699fe79af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Tile">
+      <UniqueIdentifier>{32f74ce1-9266-4fe6-8a98-50c20d1a12da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World\Effect\EffectList">
+      <UniqueIdentifier>{d78b1521-faf5-4e61-8fbe-1bb98bef74a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\Item\List\GuidedTorpedo">
+      <UniqueIdentifier>{eaaa4e2b-d826-45c3-a71c-a716a17d1db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\Topography">
+      <UniqueIdentifier>{8d87f466-00cc-4b3b-b998-358f18554aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\MapObject\List">
+      <UniqueIdentifier>{cc8acf76-35e5-4d84-9468-9d7836cddbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\MapObject\List\Seaweed">
+      <UniqueIdentifier>{e89a988b-372c-4d84-ac5e-dcc5725080fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\2DObject\MapObject\List\Stone">
+      <UniqueIdentifier>{b9117e59-318f-4010-956c-433c7626ca6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Ending">
+      <UniqueIdentifier>{3f24d867-8677-4a15-b347-4a7d4feaa771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Initial">
+      <UniqueIdentifier>{e661ceda-8d77-4ad5-9fa1-27f56c480c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Ranking">
+      <UniqueIdentifier>{9a9d03f1-0c93-4195-b690-9587713aeeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Interface">
+      <UniqueIdentifier>{ce0c909e-4b9c-440a-88ba-f107c842a979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Interface\Button">
+      <UniqueIdentifier>{b62b61c2-ecec-471c-a748-80f56fabf6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Introduction">
+      <UniqueIdentifier>{e42df7f1-58d5-4c68-accc-6c1e8c761909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sequence\List\Method">
+      <UniqueIdentifier>{8f510f36-64dd-47ca-990e-3af9fe0356e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cSystem.cpp">
+      <Filter>FrameWork\Base\System\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cEngine.cpp">
+      <Filter>FrameWork\Base\System\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cD3DApp.cpp">
+      <Filter>FrameWork\Base\D3DApp\D3DApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>FrameWork\Base\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="cDevice.cpp">
+      <Filter>FrameWork\Base\D3DApp\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="cSprite.cpp">
+      <Filter>FrameWork\Base\D3DApp\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DCoord.cpp">
+      <Filter>FrameWork\Phsyics\2DCoord</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexture.cpp">
+      <Filter>FrameWork\Resource\List\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cSound.cpp">
+      <Filter>FrameWork\Resource\List\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexList.cpp">
+      <Filter>FrameWork\Resource\List\Texture\TexList</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundList.cpp">
+      <Filter>FrameWork\Resource\List\Sound\SoundList</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>FrameWork\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cInput.cpp">
+      <Filter>FrameWork\Base\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cFont.cpp">
+      <Filter>FrameWork\Resource\List\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DLine.cpp">
+      <Filter>FrameWork\Resource\List\2DLine</Filter>
+    </ClCompile>
+    <ClCompile Include="cResource.cpp">
+      <Filter>FrameWork\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DAni.cpp">
+      <Filter>FrameWork\Object\2DAni</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DAniList.cpp">
+      <Filter>FrameWork\Object\2DAni\2DAniList</Filter>
+    </ClCompile>
+    <ClCompile Include="cSequence.cpp">
+      <Filter>FrameWork\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeqMgr.cpp">
+      <Filter>FrameWork\Sequence\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Load.cpp">
+      <Filter>FrameWork\Sequence\List\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="c2DObject.cpp">
+      <Filter>Game\GameObject\2DObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit.cpp">
+      <Filter>Game\GameObject\2DObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="cData.cpp">
+      <Filter>Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceLoad.cpp">
+      <Filter>FrameWork\Base\System\ResourceLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Game.cpp">
+      <Filter>FrameWork\Sequence\List\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Player.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Player\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_AddOn.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Player\AddOn</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFactory.cpp">
+      <Filter>Game\Factory\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>Game\GameObject\2DObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_GuidedTorpedo.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\GuidedTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_Speed.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\Speed</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_Nuclear.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\Nuclear</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_TripleTorpedo.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\TripleTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_OnceTorpedo.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\OnceTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem_Upgrade.cpp">
+      <Filter>Game\GameObject\2DObject\Item\List\Upgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Kraken.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Shark.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Shark</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Whale.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Whale</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Ray.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_P_Cme.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Purple</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_R_Cme.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_R_MonkFish.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Y_MonkFish.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_R_Puffer.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Y_Puffer.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_R_Seahorse.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cUnit_Y_Seahorse.cpp">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFactory.cpp">
+      <Filter>Game\Factory\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Player.cpp">
+      <Filter>Game\AI\List\Player\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_AddOn.cpp">
+      <Filter>Game\AI\List\Player\AddOn</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_R_Cme.cpp">
+      <Filter>Game\AI\List\Enemy\Cme%28곰치%29\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_P_Cme.cpp">
+      <Filter>Game\AI\List\Enemy\Cme%28곰치%29\Purple</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_R_MonkFish.cpp">
+      <Filter>Game\AI\List\Enemy\MonkFish\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Y_MonkFish.cpp">
+      <Filter>Game\AI\List\Enemy\MonkFish\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_R_Seahorse.cpp">
+      <Filter>Game\AI\List\Enemy\Seahorse\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Y_Seahorse.cpp">
+      <Filter>Game\AI\List\Enemy\Seahorse\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_R_Puffer.cpp">
+      <Filter>Game\AI\List\Enemy\Puffer\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Y_Puffer.cpp">
+      <Filter>Game\AI\List\Enemy\Puffer\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Ray.cpp">
+      <Filter>Game\AI\List\Boss\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Whale.cpp">
+      <Filter>Game\AI\List\Boss\Whale</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Shark.cpp">
+      <Filter>Game\AI\List\Boss\Shark</Filter>
+    </ClCompile>
+    <ClCompile Include="cAI_Kraken.cpp">
+      <Filter>Game\AI\List\Boss\Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>FrameWork\Base\System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="cFade.cpp">
+      <Filter>FrameWork\World\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameData.cpp">
+      <Filter>Game\Data\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_GuidedTorpedo.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\GuidedTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Nuclear.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\Nuclear</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Torpedo.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\Torpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_AddOn.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\AddOn</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_R_Puffer.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Y_Puffer.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Y_Seahorse.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_R_Seahorse.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_P_Cme.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Purple</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_R_Cme.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Y_MonkFish.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_R_MonkFish.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Kraken.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Kraken</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Whale.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Whale</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Ray.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet_Shark.cpp">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Shark</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFactory.cpp">
+      <Filter>Game\Factory\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemFactory.cpp">
+      <Filter>Game\Factory\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon.cpp">
+      <Filter>Game\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_OnceTorpedo.cpp">
+      <Filter>Game\Weapon\List\Player\Player\OnceTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_TripleTorpedo.cpp">
+      <Filter>Game\Weapon\List\Player\Player\TripleTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_GuidedTorpedo.cpp">
+      <Filter>Game\Weapon\List\Player\Player\GuidedTorpedo</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Nuclear.cpp">
+      <Filter>Game\Weapon\List\Player\Player\Nuclear</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_AddOn.cpp">
+      <Filter>Game\Weapon\List\Player\AddOn</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Y_Seahorse.cpp">
+      <Filter>Game\Weapon\List\Enemy\Seahorse\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_R_Seahorse.cpp">
+      <Filter>Game\Weapon\List\Enemy\Seahorse\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Y_Puffer.cpp">
+      <Filter>Game\Weapon\List\Enemy\Puffer\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_R_Puffer.cpp">
+      <Filter>Game\Weapon\List\Enemy\Puffer\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Y_MonkFish.cpp">
+      <Filter>Game\Weapon\List\Enemy\MonkFish\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_R_MonkFish.cpp">
+      <Filter>Game\Weapon\List\Enemy\MonkFish\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_P_Cme.cpp">
+      <Filter>Game\Weapon\List\Enemy\Cme\Purple</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_R_Cme.cpp">
+      <Filter>Game\Weapon\List\Enemy\Cme\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Whale.cpp">
+      <Filter>Game\Weapon\List\Boss\Whale</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Shark.cpp">
+      <Filter>Game\Weapon\List\Boss\Shark</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Ray.cpp">
+      <Filter>Game\Weapon\List\Boss\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameMap.cpp">
+      <Filter>Game\Map\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cUI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Intro.cpp">
+      <Filter>FrameWork\Sequence\List\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Cinematic.cpp">
+      <Filter>FrameWork\Sequence\List\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_MainMenu.cpp">
+      <Filter>FrameWork\Sequence\List\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Kraken1.cpp">
+      <Filter>Game\Weapon\List\Boss\Kraken\1</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeapon_Kraken2.cpp">
+      <Filter>Game\Weapon\List\Boss\Kraken\2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTile.cpp">
+      <Filter>Game\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffect.cpp">
+      <Filter>FrameWork\World\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffectList.cpp">
+      <Filter>FrameWork\World\Effect\EffectList</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapObject.cpp">
+      <Filter>Game\GameObject\2DObject\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapObj_Seaweed.cpp">
+      <Filter>Game\GameObject\2DObject\MapObject\List\Seaweed</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapObj_Stone.cpp">
+      <Filter>Game\GameObject\2DObject\MapObject\List\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="cTopography.cpp">
+      <Filter>Game\GameObject\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Ending.cpp">
+      <Filter>FrameWork\Sequence\List\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Initial.cpp">
+      <Filter>FrameWork\Sequence\List\Initial</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Ranking.cpp">
+      <Filter>FrameWork\Sequence\List\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="cMsg.cpp">
+      <Filter>FrameWork\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="cMsgMgr.cpp">
+      <Filter>FrameWork\Message\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>FrameWork\Interface\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Introduction.cpp">
+      <Filter>FrameWork\Sequence\List\Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="cSeq_Method.cpp">
+      <Filter>FrameWork\Sequence\List\Method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cSystem.h">
+      <Filter>FrameWork\Base\System\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cEngine.h">
+      <Filter>FrameWork\Base\System\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cD3DApp.h">
+      <Filter>FrameWork\Base\D3DApp\D3DApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>FrameWork\Base\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="cDevice.h">
+      <Filter>FrameWork\Base\D3DApp\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="cSprite.h">
+      <Filter>FrameWork\Base\D3DApp\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DCoord.h">
+      <Filter>FrameWork\Phsyics\2DCoord</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexture.h">
+      <Filter>FrameWork\Resource\List\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cSound.h">
+      <Filter>FrameWork\Resource\List\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexList.h">
+      <Filter>FrameWork\Resource\List\Texture\TexList</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundList.h">
+      <Filter>FrameWork\Resource\List\Sound\SoundList</Filter>
+    </ClInclude>
+    <ClInclude Include="TexListName.h">
+      <Filter>FrameWork\Resource\List\Texture\TexList</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundListName.h">
+      <Filter>FrameWork\Resource\List\Sound\SoundList</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>FrameWork\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cInput.h">
+      <Filter>FrameWork\Base\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cFont.h">
+      <Filter>FrameWork\Resource\List\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DLine.h">
+      <Filter>FrameWork\Resource\List\2DLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cResource.h">
+      <Filter>FrameWork\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DAni.h">
+      <Filter>FrameWork\Object\2DAni</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DAniList.h">
+      <Filter>FrameWork\Object\2DAni\2DAniList</Filter>
+    </ClInclude>
+    <ClInclude Include="cSequence.h">
+      <Filter>FrameWork\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeqMgr.h">
+      <Filter>FrameWork\Sequence\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Load.h">
+      <Filter>FrameWork\Sequence\List\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="c2DObject.h">
+      <Filter>Game\GameObject\2DObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit.h">
+      <Filter>Game\GameObject\2DObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="cData.h">
+      <Filter>Game\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Game\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceLoad.h">
+      <Filter>FrameWork\Base\System\ResourceLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Game.h">
+      <Filter>FrameWork\Sequence\List\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Player.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Player\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_AddOn.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Player\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFactory.h">
+      <Filter>Game\Factory\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>Game\GameObject\2DObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_GuidedTorpedo.h">
+      <Filter>Game\GameObject\2DObject\Item\List\GuidedTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_Speed.h">
+      <Filter>Game\GameObject\2DObject\Item\List\Speed</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_Nuclear.h">
+      <Filter>Game\GameObject\2DObject\Item\List\Nuclear</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_TripleTorpedo.h">
+      <Filter>Game\GameObject\2DObject\Item\List\TripleTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_OnceTorpedo.h">
+      <Filter>Game\GameObject\2DObject\Item\List\OnceTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem_Upgrade.h">
+      <Filter>Game\GameObject\2DObject\Item\List\Upgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Kraken.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Shark.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Shark</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Whale.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Whale</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Ray.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Boss\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_P_Cme.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Purple</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_R_Cme.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Cme%28곰치%29\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_R_MonkFish.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Y_MonkFish.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\MonkFish\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_R_Puffer.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Y_Puffer.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Puffer\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_R_Seahorse.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cUnit_Y_Seahorse.h">
+      <Filter>Game\GameObject\2DObject\Unit\List\Enemy\Seahorse\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFactory.h">
+      <Filter>Game\Factory\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Player.h">
+      <Filter>Game\AI\List\Player\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_AddOn.h">
+      <Filter>Game\AI\List\Player\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_R_Cme.h">
+      <Filter>Game\AI\List\Enemy\Cme%28곰치%29\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_P_Cme.h">
+      <Filter>Game\AI\List\Enemy\Cme%28곰치%29\Purple</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_R_MonkFish.h">
+      <Filter>Game\AI\List\Enemy\MonkFish\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Y_MonkFish.h">
+      <Filter>Game\AI\List\Enemy\MonkFish\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_R_Seahorse.h">
+      <Filter>Game\AI\List\Enemy\Seahorse\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Y_Seahorse.h">
+      <Filter>Game\AI\List\Enemy\Seahorse\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_R_Puffer.h">
+      <Filter>Game\AI\List\Enemy\Puffer\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Y_Puffer.h">
+      <Filter>Game\AI\List\Enemy\Puffer\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Ray.h">
+      <Filter>Game\AI\List\Boss\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Whale.h">
+      <Filter>Game\AI\List\Boss\Whale</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Shark.h">
+      <Filter>Game\AI\List\Boss\Shark</Filter>
+    </ClInclude>
+    <ClInclude Include="cAI_Kraken.h">
+      <Filter>Game\AI\List\Boss\Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>FrameWork\Base\System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="cFade.h">
+      <Filter>FrameWork\World\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeType.h">
+      <Filter>FrameWork\World\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameData.h">
+      <Filter>Game\Data\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Game\GameObject\2DObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_GuidedTorpedo.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\GuidedTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Nuclear.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\Nuclear</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Torpedo.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\Player\Torpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_AddOn.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Player\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_R_Puffer.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Y_Puffer.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Puffer\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Y_Seahorse.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_R_Seahorse.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Seahorse\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_P_Cme.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Purple</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_R_Cme.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\Cme\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Y_MonkFish.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_R_MonkFish.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Enemy\MonkFish\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Kraken.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Kraken</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Whale.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Whale</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Ray.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet_Shark.h">
+      <Filter>Game\GameObject\2DObject\Bullet\List\Boss\Shark</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFactory.h">
+      <Filter>Game\Factory\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFactory.h">
+      <Filter>Game\Factory\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon.h">
+      <Filter>Game\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_OnceTorpedo.h">
+      <Filter>Game\Weapon\List\Player\Player\OnceTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_TripleTorpedo.h">
+      <Filter>Game\Weapon\List\Player\Player\TripleTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_GuidedTorpedo.h">
+      <Filter>Game\Weapon\List\Player\Player\GuidedTorpedo</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Nuclear.h">
+      <Filter>Game\Weapon\List\Player\Player\Nuclear</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_AddOn.h">
+      <Filter>Game\Weapon\List\Player\AddOn</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Y_Seahorse.h">
+      <Filter>Game\Weapon\List\Enemy\Seahorse\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_R_Seahorse.h">
+      <Filter>Game\Weapon\List\Enemy\Seahorse\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Y_Puffer.h">
+      <Filter>Game\Weapon\List\Enemy\Puffer\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_R_Puffer.h">
+      <Filter>Game\Weapon\List\Enemy\Puffer\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Y_MonkFish.h">
+      <Filter>Game\Weapon\List\Enemy\MonkFish\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_R_MonkFish.h">
+      <Filter>Game\Weapon\List\Enemy\MonkFish\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_P_Cme.h">
+      <Filter>Game\Weapon\List\Enemy\Cme\Purple</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_R_Cme.h">
+      <Filter>Game\Weapon\List\Enemy\Cme\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Whale.h">
+      <Filter>Game\Weapon\List\Boss\Whale</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Shark.h">
+      <Filter>Game\Weapon\List\Boss\Shark</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Ray.h">
+      <Filter>Game\Weapon\List\Boss\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameMap.h">
+      <Filter>Game\Map\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cUI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Intro.h">
+      <Filter>FrameWork\Sequence\List\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Cinematic.h">
+      <Filter>FrameWork\Sequence\List\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_MainMenu.h">
+      <Filter>FrameWork\Sequence\List\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Kraken1.h">
+      <Filter>Game\Weapon\List\Boss\Kraken\1</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon_Kraken2.h">
+      <Filter>Game\Weapon\List\Boss\Kraken\2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTile.h">
+      <Filter>Game\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffect.h">
+      <Filter>FrameWork\World\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffectList.h">
+      <Filter>FrameWork\World\Effect\EffectList</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapObject.h">
+      <Filter>Game\GameObject\2DObject\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapObj_Seaweed.h">
+      <Filter>Game\GameObject\2DObject\MapObject\List\Seaweed</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapObj_Stone.h">
+      <Filter>Game\GameObject\2DObject\MapObject\List\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="cTopography.h">
+      <Filter>Game\GameObject\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Ending.h">
+      <Filter>FrameWork\Sequence\List\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Initial.h">
+      <Filter>FrameWork\Sequence\List\Initial</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Ranking.h">
+      <Filter>FrameWork\Sequence\List\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="cMsg.h">
+      <Filter>FrameWork\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="cMsgMgr.h">
+      <Filter>FrameWork\Message\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>FrameWork\Interface\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Introduction.h">
+      <Filter>FrameWork\Sequence\List\Introduction</Filter>
+    </ClInclude>
+    <ClInclude Include="cSeq_Method.h">
+      <Filter>FrameWork\Sequence\List\Method</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

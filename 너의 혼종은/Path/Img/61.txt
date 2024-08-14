@@ -1,0 +1,7 @@
+Resource/Img/MainMenu/BackGround.png
+Resource/Img/MainMenu/Introduce.png
+Resource/Img/MainMenu/Method.png
+Resource/Img/MainMenu/Start.png
+Resource/Img/MainMenu/Exit.png
+Resource/Img/MainMenu/Ranking.png
+Resource/Img/MainMenu/WaterDrop.png

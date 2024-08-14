@@ -1,0 +1,10 @@
+Resource/Img/UI/Score/Num/0.png
+Resource/Img/UI/Score/Num/1.png
+Resource/Img/UI/Score/Num/2.png
+Resource/Img/UI/Score/Num/3.png
+Resource/Img/UI/Score/Num/4.png
+Resource/Img/UI/Score/Num/5.png
+Resource/Img/UI/Score/Num/6.png
+Resource/Img/UI/Score/Num/7.png
+Resource/Img/UI/Score/Num/8.png
+Resource/Img/UI/Score/Num/9.png

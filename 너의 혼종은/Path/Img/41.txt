@@ -1,0 +1,12 @@
+Resource/Img/Bullet/Enemy/Y_MonkFish/00001.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00002.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00003.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00004.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00005.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00006.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00007.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00008.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00009.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00010.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00011.png
+Resource/Img/Bullet/Enemy/Y_MonkFish/00012.png

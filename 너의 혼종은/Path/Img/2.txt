@@ -1,0 +1,12 @@
+Resource/Img/Unit/Player/Player/Attack/00001.png
+Resource/Img/Unit/Player/Player/Attack/00002.png
+Resource/Img/Unit/Player/Player/Attack/00003.png
+Resource/Img/Unit/Player/Player/Attack/00004.png
+Resource/Img/Unit/Player/Player/Attack/00005.png
+Resource/Img/Unit/Player/Player/Attack/00006.png
+Resource/Img/Unit/Player/Player/Attack/00007.png
+Resource/Img/Unit/Player/Player/Attack/00008.png
+Resource/Img/Unit/Player/Player/Attack/00009.png
+Resource/Img/Unit/Player/Player/Attack/00010.png
+Resource/Img/Unit/Player/Player/Attack/00011.png
+Resource/Img/Unit/Player/Player/Attack/00012.png

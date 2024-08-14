@@ -1,0 +1,4 @@
+Resource/Sound/BGM.wav
+Resource/Sound/Button.wav
+Resource/Sound/Death.wav
+Resource/Sound/Attack.wav
